@@ -5,6 +5,10 @@
   user-select: none;
 }
 
+*:focus {
+  box-shadow: none !important;
+}
+
 body {
   background-color: #eee;
   font-family: Tahoma, Arial, sans-serif;
@@ -32,23 +36,29 @@ body {
 }
 .main-page .name-site {
   font-size: 50px !important;
-  background-color: #eee;
   padding: 10px 20px;
   box-shadow: 0px 0px 3px 0px black;
-  transition: 0.3s;
+  transition: 4s;
+  width: fit-content;
+  font-weight: bold;
+  margin: auto;
   position: relative;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px black;
 }
-@media (max-width: 550px) {
+@media (max-width: 450px) {
   .main-page .name-site {
-    font-size: 30px !important;
+    font-size: 30px;
   }
-}
-.main-page .name-site:hover {
-  background-color: rgba(238, 238, 238, 0.226);
 }
 .main-page .path-learning .path-content .path {
   padding: 10px 20px;
   margin: 10px 0;
+  transition: 0.3s;
+  position: relative;
+}
+.main-page .path-learning .path-content .path:hover {
+  transform: translateY(-5px);
 }
 .main-page .path-learning .path-content .path .intro-prog {
   background-color: #9c27b0 !important;
