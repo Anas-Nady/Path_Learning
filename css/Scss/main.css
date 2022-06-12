@@ -9,6 +9,10 @@
   box-shadow: none !important;
 }
 
+.no-active{
+  opacity: .5;
+}
+
 body {
   background-color: #eee;
   font-family: Tahoma, Arial, sans-serif;
