@@ -13,13 +13,13 @@ path.forEach((e) => {
 path.forEach((e) => {
   e.addEventListener("click", function (e) {
     if (this.classList.contains("no-active")) {
-      bodyAleart.style.cssText = "opacity: 1; z-index: 123";
-      aleart.style.cssText = "opacity: 1; z-index: 12332;";
+      bodyAleart.style.cssText = "opacity: 1 !important; z-index: 123";
+      aleart.style.cssText = "opacity: 1 !important; z-index: 12332;";
     }
   });
 });
 
 buttonCloseAleart.onclick = function () {
-  bodyAleart.style.cssText = "opacity: 0; z-index: 0;";
-  aleart.style.display = "opacity: 0; z-index: 0;";
+  bodyAleart.style.cssText = "opacity: 0 !important; z-index: 0;";
+  aleart.style.display = "opacity: 0 !important; z-index: 0;";
 };

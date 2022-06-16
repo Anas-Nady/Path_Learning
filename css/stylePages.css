@@ -10,11 +10,9 @@ body {
   color: white;
   background: brown;
 }
-a{
+a {
   text-decoration: none;
 }
-
-
 
 .name-section {
   position: relative;
@@ -25,13 +23,13 @@ a{
   margin: 30px auto;
 }
 
-@media (max-width: 533px){
+@media (max-width: 533px) {
   .name-section {
     font-size: 40px;
   }
 }
 
-@media (max-width: 430px){
+@media (max-width: 430px) {
   .name-section {
     font-size: 30px;
   }
@@ -72,9 +70,6 @@ main {
 }
 
 .main-path {
-  position: relative;
-  overflow: hidden;
-  padding: 50px 0;
   background-color: #eee;
   margin: 20px 0;
   box-shadow: 3px 11px 20px 0px #3030302b, 6px 2px 20px 0px #ababab2b;
@@ -124,7 +119,7 @@ main {
   .main-path .left,
   .main-path .right {
     width: calc(100% - 40px);
-  box-shadow: none;
+    box-shadow: none;
   }
 
   .main-path .left::before,
@@ -132,7 +127,7 @@ main {
     display: none;
   }
 
-  .main-path::after{
+  .main-path::after {
     display: none;
   }
 }
@@ -173,6 +168,8 @@ main {
   text-align: center;
   font-size: 30px;
   font-weight: bold;
+  border-radius: 100px 0px 100px 0px;
+  background-color: #2b63b7 !important;
 }
 
 footer {
@@ -190,12 +187,7 @@ footer .text {
 }
 
 .books .main-box-books {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 30px;
-  padding-bottom: 20px;
   background-color: #eee;
-  margin-top: 40px;
   box-shadow: 10px 20px 20px 0px #0000002b, -9px -3px 20px 0px #0000002b;
 }
 
@@ -213,7 +205,7 @@ footer .text {
 
 @media (max-width: 575px) {
   .books .main-box-books .img-book {
-    max-width: 70%;
+    max-width: 75%;
   }
 }
 
@@ -279,39 +271,60 @@ footer .text {
   width: fit-content;
   margin: 10px 0;
 }
-.site-content{
+.site-content {
   background-color: #eee;
   padding: 50px 20px;
   box-shadow: 10px 20px 20px 0px #0000002b, -9px -3px 20px 0px #0000002b;
 }
 
-.site-content .benefit-site{
+.site-content .benefit-site {
   padding: 15px 20px;
   background-color: #fff;
   font-weight: 500;
 }
 
-.site-content .benefit-site > strong{
+.site-content .benefit-site > strong {
   color: #f00;
 }
 
-.site-content .box-site{
+.site-content .box-site {
   padding: 10px 20px;
   background-color: #fff;
   margin: 20px 0;
 }
 
-.site-content .box-site .name-site{
+.site-content .box-site .name-site {
   color: var(--main-color);
   font-weight: 600;
 }
 
-.site-content .box-site .description-site{
+.site-content .box-site .description-site {
   margin: 10px 0;
 }
 
-.site-content .box-site .go-site{
+.site-content .box-site .go-site {
   display: block;
   width: fit-content;
   margin: 10px 0;
+}
+
+.intro-content {
+  box-shadow: 10px 20px 20px 0px #0000001e, -9px -3px 20px 0px #0000001e;
+  background-color: #eee;
+}
+
+.intro-box .title-box {
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 0px 100px 0px 100px;
+}
+.intro-box .text-box {
+  margin-top: 20px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.intro-box .text-box > strong{
+  color: red;
+  font-weight: 600;
+  letter-spacing: .9px;
 }
