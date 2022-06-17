@@ -186,6 +186,22 @@ footer .text {
   padding-bottom: 50px;
 }
 
+.filte-books > div {
+  min-width: 100px;
+  text-align: center;
+  color: black;
+  background-color: #eee;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: .7px;
+  transition: .3s;
+}
+.filte-books > div.active,
+.filte-books > div:hover {
+  background-color: #084298;
+  color: #fff;
+}
+
 .books .main-box-books {
   background-color: #eee;
   box-shadow: 10px 20px 20px 0px #0000002b, -9px -3px 20px 0px #0000002b;
@@ -323,8 +339,8 @@ footer .text {
   border-radius: 10px;
   font-weight: 600;
 }
-.intro-box .text-box > strong{
+.intro-box .text-box > strong {
   color: red;
   font-weight: 600;
-  letter-spacing: .9px;
+  letter-spacing: 0.9px;
 }
