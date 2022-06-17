@@ -3,6 +3,8 @@ let allBook = Array.from(document.querySelectorAll(".main-box-books .book"));
 let allBtnFilterBook = Array.from(
   document.querySelectorAll(".filte-books div")
 );
+let dateNow = new Date();
+let setDateInFooter = document.querySelector("footer .date");
 
 function filteBooks(allbooks, jsbooks, cleancodeBooks) {
   allBtnFilterBook.forEach((btn) => {
@@ -45,3 +47,6 @@ function filteBooks(allbooks, jsbooks, cleancodeBooks) {
 }
 
 filteBooks("all-books", "js-books", "cleanCode-books");
+
+// Set Date Created Website In Footer
+setDateInFooter.innerHTML = dateNow.getFullYear();
