@@ -38,6 +38,14 @@ a {
   }
 }
 
+.site-content,
+.tips-content,
+.code-editor-content {
+  background-color: #eee;
+  padding: 50px 20px;
+  box-shadow: 10px 20px 20px 0px #0000002b, -9px -3px 20px 0px #0000002b;
+}
+
 main {
   background-color: #eee;
   padding: 20px;
@@ -248,11 +256,6 @@ footer .text {
   margin: 0 10px;
 }
 
-.code-editor-content {
-  background-color: #eee;
-  padding: 50px 20px;
-  box-shadow: 10px 20px 20px 0px #0000002b, -9px -3px 20px 0px #0000002b;
-}
 
 .code-editor-content .box-define {
   background-color: #fff;
@@ -293,11 +296,6 @@ footer .text {
   display: block;
   width: fit-content;
   margin: 10px 0;
-}
-.site-content {
-  background-color: #eee;
-  padding: 50px 20px;
-  box-shadow: 10px 20px 20px 0px #0000002b, -9px -3px 20px 0px #0000002b;
 }
 
 .site-content .benefit-site {
