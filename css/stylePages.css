@@ -153,6 +153,10 @@ main {
 .main-path .right::before {
   left: -35px;
 }
+.main-path .left:hover::before,
+.main-path .right:hover::before{
+  background-color: var(--main-color);
+}
 .main-path .left {
   float: left;
   margin-left: 20px;
@@ -344,6 +348,6 @@ footer .text {
 }
 .intro-box .text-box > strong {
   color: red;
-  font-weight: 600;
+  font-weight: bold;
   letter-spacing: 0.9px;
 }
