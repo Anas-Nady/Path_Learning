@@ -26,9 +26,9 @@ a {
   transition: 0.3s;
 }
 
-@media (max-width: 533px) {
+@media (max-width: 780px) {
   .name-section {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 
