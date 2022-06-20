@@ -26,14 +26,15 @@
     <link rel="stylesheet" href="../css/stylePages.css" />
   </head>
   <body>
-    <nav dir="ltr" class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
         <a class="navbar-brand" href="../index.html">Path Learning</a>
         <img src="../imgs/icon.png" width="40px" alt="" />
       </div>
     </nav>
 
-    <main>
+    <main class="main-page">
       <div class="container">
         <div class="main-description">
           <h3 class="name-path">Front end developer</h3>
@@ -177,7 +178,7 @@
       </div>
     </section>
 
-    <div class="code-editors">
+    <section class="code-editors">
       <div class="container">
         <h3 class="name-section" dir="rtl">الأدوات الازمه لبدأ العمل</h3>
         <div class="code-editor-content">
@@ -248,15 +249,15 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <section class="books">
       <div class="container">
         <h3 class="name-section" dir="rtl">كتب ومراجع</h3>
         <div class="filte-books d-flex justify-content-center align-items-center">
-          <div data-book=".all-books" class="all-books m-3 ms-0 p-2 rounded active">All Books</div>
-          <div data-book=".js-books" class="js-books m-3 p-2 rounded">Java Script</div>
-          <div data-book=".cleanCode-books" class="cleanCode-books m-3 me-0 p-2 rounded">Clean Code</div>
+          <div data-book=".all-books" class="all-books  m-2 ms-0 p-2 rounded active">All Books</div>
+          <div data-book=".js-books" class="js-books m-2 p-2 rounded">Java Script</div>
+          <div data-book=".cleanCode-books" class="cleanCode-books m-2 me-0 p-2 rounded">Clean Code</div>
         </div>
         <div class="main-box-books d-flex mt-4 pt-3 pb-2 flex-wrap row">
           <div class="book col-lg-3 col-md-4 col-sm-6 col-xs-12 all-books">
@@ -414,7 +415,7 @@
       </div>
     </section>
 
-    <div class="educational-sites">
+    <section class="educational-sites">
       <div class="container">
         <h3 class="name-section" dir="rtl">مواقع تفيدك أثناء التعلم</h3>
         <div class="site-content" dir="rtl">
@@ -467,46 +468,46 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <section class="tips">
       <div class="container">
         <h3 class="name-section" dir="rtl">نصائح للمبتدائين</h3>
         <div class="tips-content" dir="rtl">
 
-          <div class="box-tips mt-4 mb-4 bg-white rounded-3 p-3">
-            <h3 for="question" class="text-primary fs-4 fw-bold mb-3 mt-2">1- كتابة كود دون التخطيط:</h3>
-            <div class="solvin">
-              <p class="lh-lg ">غالباً ماتتعرض أثناء كتابة الكود للكثير جداً من المشاكل بعضها قد يكون سهلاً والبعض الآخر معقد جداً وفي كل الأحوال عليك أن تخطط جيدا للكود الذي سيحل المشكلة برأيك قبل البدء بكتابته.</p>
+          <div class="box-tips posi mt-4 mb-4 bg-white rounded-3 p-3 position-relative">
+            <h3 class="question text-primary active fs-4 fw-bold mb-3 mt-2">1- كتابة كود دون التخطيط:</h3>
+            <div class="solving overflow-hidden">
+              <p class="lh-lg">غالباً ماتتعرض أثناء كتابة الكود للكثير جداً من المشاكل التي قد تصيبك بي الأحباط بعضها قد يكون سهلاً والبعض الآخر معقد جداً وفي كل الأحوال عليك أن تخطط جيدا للكود  الذي سيحل المشكلة برأيك قبل البدء بكتابته .</p>
             </div>
           </div>
 
-          <div class="box-tips mt-4 mb-4 bg-white rounded-3 p-3">
-            <h3 for="question" class="text-primary fs-4 fw-bold mb-3 mt-2">2- كتابة كود دون تعليقات:</h3>
-            <div class="solvin">
+          <div class="box-tips posi mt-4 mb-4 bg-white rounded-3 p-3 position-relative">
+            <h3 class="question text-primary fs-4 fw-bold mb-3 mt-2">2- كتابة كود دون تعليقات:</h3>
+            <div class="solving overflow-hidden">
               <p class="lh-lg ">في بداية مشوارك البرمجي قد تظن أن كتابة التعليقات إضاعة للوقت لأن الأكواد التي تكتبها تكون بسيطة ولكن فيما بعد ستدرك أهميتها عندما تضطر للرجوع إلى كود ما لتعديله فقد تضيّع الكثير من الوقت لإعادة فهمه بالرغم من أنك أنت من كتبه أما بوجود التعليقات لن يستغرق منك الأمر سوى بضع ثوانٍ وكذلك فإن التعليقات أمر مهم جداً أثناء العمل مع فريق برمجي متكامل.</p>
             </div>
           </div>
 
-          <div class="box-tips mt-4 mb-4 bg-white rounded-3 p-3">
-            <h3 for="question" class="text-primary fs-4 fw-bold mb-3 mt-2">3- عدم البحث في Google:</h3>
-            <div class="solvin">
+          <div class="box-tips posi mt-4 mb-4 bg-white rounded-3 p-3 position-relative">
+            <h3 class="question text-primary fs-4 fw-bold mb-3 mt-2">3- عدم البحث في Google:</h3>
+            <div class="solving overflow-hidden">
               <p class="lh-lg ">إن أفضل طريقة لحل مشكلة معقدة هي ألا تكون بحاجة للحل أصلاً، لا تتعب نفسك بالتفكير الزائد وهناك الآلاف ممن تعرضوا لهذه المشكلة قبلك وحصلوا على حلها ببساطة بالإضافة إلى أنه هناك الكثير جداً من المجتمعات البرمجية التي تنتظر أسئلتك لتساعدك بالحل وبإمكانك الاستعانة بنا في نقرة أيضاً.</p>
             </div>
           </div>
 
 
-          <div class="box-tips mt-4 mb-4 bg-white rounded-3 p-3">
-            <h3 for="question" class="text-primary fs-4 fw-bold mb-3 mt-2">4- الهروب من الأخطاء:</h3>
-            <div class="solvin">
+          <div class="box-tips posi mt-4 mb-4 bg-white rounded-3 p-3 position-relative">
+            <h3 class="question text-primary fs-4 fw-bold mb-3 mt-2">4- الهروب من الأخطاء:</h3>
+            <div class="solving overflow-hidden">
               <p class="lh-lg ">مادمت تخطئ فأنت تتقدم وعليك المتابعة للحصول على مزيد من الأخطاء والحلول أيضاً، عادةً فإن المبرمج الخبير يشعر بمتعة حقيقية عند مواجهة الأخطاء على عكس المبرمج المبتدئ، عليك أن تستفاد من الخطوط الحمراء التي يظهرها لك محرر الأكواد لتحقيق المزيد من التقدم.</p>
             </div>
           </div>
 
 
-          <div class="box-tips mt-4 mb-4 bg-white rounded-3 p-3">
-            <h3 for="question" class="text-primary fs-4 fw-bold mb-3 mt-2">5- إعادة اختراع العجلة:</h3>
-            <div class="solvin">
+          <div class="box-tips posi mt-4 mb-4 bg-white rounded-3 p-3 position-relative">
+            <h3 class="question text-primary fs-4 fw-bold mb-3 mt-2">5- إعادة اختراع العجلة:</h3>
+            <div class="solving overflow-hidden">
               <p class="lh-lg ">لا داعٍ لإضاعة وقتك في حلول قد طورها مبرمج قبلك فوقتك هو لابتكار الجديد واستخدام الحلول الحالية المتوفرة كما أنك قد تهدر الكثير جداً من الوقت قبل الوصول لحل بنفس جودة الحل المتوفر مسبقاً.</p>
             </div>
           </div>

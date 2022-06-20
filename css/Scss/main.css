@@ -10,7 +10,7 @@
   outline: none;
 }
 
-.no-active {
+.path.no-active {
   opacity: 0.5;
 }
 
@@ -20,7 +20,7 @@ body {
 }
 
 .body-aleart {
-  transition: 1s;
+  transition: .5s;
   opacity: 0;
 }
 
@@ -31,7 +31,6 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  transition: 1s;
   border-radius: 20px ;
 }
 
@@ -85,7 +84,6 @@ body {
   font-size: 50px !important;
   padding: 10px 20px;
   box-shadow: 0px 0px 3px 0px black;
-  transition: 4s;
   width: fit-content;
   -webkit-text-fill-color: white;
   -webkit-text-stroke: 1px black;
@@ -98,7 +96,7 @@ body {
 .main-page .path-learning .path-content .path {
   padding: 10px 20px;
   margin: 10px 0;
-  transition: 0.3s;
+  transition: 0.3s transform;
 }
 .main-page .path-learning .path-content .path .card-content {
   min-height: 322px;

@@ -31,3 +31,13 @@ function manageBooks() {
     book.classList.remove("d-none");
   });
 }
+
+let tipsQuestion = document.querySelectorAll(".box-tips .question");
+
+tipsQuestion.forEach((e) => {
+  e.addEventListener("click", (e) => {
+    tipsQuestion.forEach((e) => e.classList.remove("active"));
+
+    e.target.classList.add("active");
+  });
+});
