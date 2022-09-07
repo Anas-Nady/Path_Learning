@@ -194,6 +194,20 @@ footer .text {
   letter-spacing: 1px;
   font-size: 20px;
 }
+/* Channe  */
+
+.channel-box {
+  border: 2px solid #eee;
+  margin-bottom: 15px;
+}
+.channel-box:hover {
+  transition: 0.5s;
+  transform: translateY(-5px);
+}
+
+.channel-box > img {
+  border-radius: 50%;
+}
 
 .books {
   padding-top: 50px;
@@ -413,4 +427,68 @@ footer .text {
 
 .box-tips .question.active + .solving {
   height: fit-content;
+}
+
+.scroll-btn {
+  right: 20px;
+  bottom: 20px;
+  opacity: 0;
+  transition: 0.3s opacity;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .scroll-btn {
+    right: 5px;
+  }
+}
+
+.nav-bullets {
+  right: 10px;
+  width: 40px;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 768px) {
+  .nav-bullets {
+    display: none;
+  }
+}
+
+.nav-bullets .bullet {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #03a9f4;
+  right: 0;
+  margin: 20px auto;
+  z-index: 1000;
+  cursor: pointer;
+}
+.nav-bullets .bullet:hover {
+  background-color: #03a9f4 !important;
+}
+
+.nav-bullets .bullet:hover .tooltip-bullet {
+  display: block;
+}
+
+.nav-bullets .bullet .tooltip-bullet {
+  background-color: #03a9f4;
+  right: 35px;
+  width: 100px;
+  padding: 5px 10px;
+  top: -10px;
+  cursor: default;
+  pointer-events: none;
+  display: none;
+}
+.nav-bullets .bullet .tooltip-bullet::before {
+  content: "";
+  position: absolute;
+  border: 18px solid;
+  border-color: transparent transparent transparent #03a9f4;
+  right: -35px;
+  top: 50%;
+  transform: translateY(-50%);
 }
