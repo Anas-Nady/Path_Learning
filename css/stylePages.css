@@ -39,7 +39,8 @@ a {
 
 .site-content,
 .tips-content,
-.code-editor-content {
+.code-editor-content,
+.channel-boxs {
   background-color: #eee;
   padding: 50px 20px;
   box-shadow: 10px 20px 20px 0px #0000002b, -9px -3px 20px 0px #0000002b;
@@ -197,8 +198,9 @@ footer .text {
 /* Channe  */
 
 .channel-box {
-  border: 2px solid #eee;
   margin-bottom: 15px;
+  border-radius: 6px;
+  border: 1px solid rgba(170, 170, 170, 0.479);
 }
 .channel-box:hover {
   transition: 0.5s;
